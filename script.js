@@ -94,7 +94,7 @@ function getWeatherEmoji(WeatherId) {
         case WeatherId > 800 && WeatherId < 900:
             return "☁️"; // Clouds
         default:
-            return "🌈?"; // Default/fallback emoji
+            return "🌈"; // Default/fallback emoji
     }
     // Implementation here
 }
